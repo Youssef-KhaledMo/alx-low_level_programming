@@ -31,6 +31,8 @@ void times_table(void)
 					_putchar(((n1 * n2) % 10) + '0');
 				}
 			}
+			else
+				_putchar((n1 * n2) + '0');
 			if (n2 < 9)
 				_putchar(',');
 		}
