@@ -12,10 +12,10 @@
 
 void print_times_table(int n)
 {
+	int n1, n2;
+
 	if (n > 15 || n < 0)
 		return;
-
-	int n1, n2;
 
 	for (n1 = 0; n1 <= n; n1++)
 	{
