@@ -4,8 +4,8 @@
  * print_to_98 - prints all natural numbers from n to 98
  * @n: The integer
  *
- * Description: prints all natural numbers from n to 98,
- *		followed by a new line.
+ * Description: prints all natural numbers
+ *		from n to 98, followed by a new line.
  *
  * Return: void
 */
