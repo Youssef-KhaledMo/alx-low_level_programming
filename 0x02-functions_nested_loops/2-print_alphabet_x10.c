@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - print all characters ten times
+ * print_alphabet_x10 - print all characters ten times
  *
  * Return: void.
 */
