@@ -23,6 +23,8 @@ void times_table(void)
 					_putchar(' ');
 			}
 			_putchar((n1 * n2) + '0');
+			_putchar(',');
 		}
+		_putchar('\n');
 	}
 }
