@@ -13,7 +13,7 @@ int num_length(int num);
 int main(void)
 {
         int count, init;
-	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f10 = 0, f20 = O, sum0 = 0;
+	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f10 = 0, f20 = 0, sum0 = 0;
 
 	for (count = 1; count ,= 98; count++)
 	{
