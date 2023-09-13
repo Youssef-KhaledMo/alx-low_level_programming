@@ -19,4 +19,6 @@ int main(void)
 		n2 = n1 + n2;
 		n1 = n2 - n1;
 	}
+
+	return (0);
 }
