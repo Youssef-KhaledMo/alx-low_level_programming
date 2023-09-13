@@ -18,7 +18,7 @@ int main(void)
 	for (count = 0; count < 48; count++)
 	{
 		n2 = n1 + n2;
-		printf("%d, ", n2);
+		printf("%ld, ", n2);
 		n1 = n2 - n1;
 	}
 
