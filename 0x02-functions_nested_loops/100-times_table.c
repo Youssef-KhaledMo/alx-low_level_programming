@@ -25,10 +25,15 @@ void print_times_table(int n)
 				printf("%d\n", n1 * n2);
 			else
 			{
-				if (n1 * n2 < 10)
-					printf("%d,   ", n1 * n2);
+				if (n2 == 0)
+					printf("%d,", n1 * n2);
 				else
-					printf("%d,  ", n1 * n2);
+				{
+					if (n1 * n2 < 10)
+						printf("   %d,", n1 * n2);
+					else
+						printf("  %d,", n1 * n2);
+				}
 			}
 		}
 	}
