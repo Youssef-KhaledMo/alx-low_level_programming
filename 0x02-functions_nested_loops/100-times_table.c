@@ -17,27 +17,37 @@ void print_times_table(int n)
 	if (n > 15 || n < 0)
 		return;
 
-	for (n1 = 0; n1 <= n; n1++)
+	if (n == 0)
+		printf("0\n");
+
+	else
 	{
-		for (n2 = 0; n2 <= n; n2++)
+		for (n1 = 0; n1 <= n; n1++)
 		{
-			if (n2 == n)
+			for (n2 = 0; n2 <= n; n2++)
 			{
-				if (n1 * n2 < 10)
-					printf("   %d\n", n1 * n2);
-				else
-					printf("  %d\n", n1 * n2);
-			}
-			else
-			{
-				if (n2 == 0)
-					printf("%d,", n1 * n2);
-				else
+				if (n2 == n)
 				{
 					if (n1 * n2 < 10)
-						printf("   %d,", n1 * n2);
+						printf("   %d\n", n1 * n2);
+					else if (n1 * n2 < 100)
+						printf("  %d\n", n1 * n2);
 					else
-						printf("  %d,", n1 * n2);
+						printf(" %d\n", n1 * n2);
+				}
+				else
+				{
+					if (n2 == 0)
+						printf("%d,", n1 * n2);
+					else
+					{
+						if (n1 * n2 < 10)
+							printf("   %d,", n1 * n2);
+						else if (n1 * n2 < 100)
+							printf("  %d,", n1 * n2);
+						else
+							printf(" %d,", n1 * n2);
+					}
 				}
 			}
 		}
