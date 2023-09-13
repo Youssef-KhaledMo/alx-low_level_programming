@@ -10,7 +10,8 @@
 
 int main(void)
 {
-	int n1 = 1, n2 = 2, count;
+	long int n1 = 1, n2 = 2;
+	int count;
 
 	printf("1, 2, ");
 
