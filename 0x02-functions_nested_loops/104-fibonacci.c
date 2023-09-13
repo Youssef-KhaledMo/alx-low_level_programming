@@ -1,14 +1,5 @@
 #include "main.h"
 
-/**
- * num_length - calculate the length of an integer
- * @num: the integer
- *
- * Description: calculate the length of an integer
- *
- * Return: lenght of the integer
-*/
-
 int num_length(int num);
 
 /**
@@ -52,6 +43,15 @@ int main(void)
 
 	return (0);
 }
+
+/**
+ * num_length - calculate the length of an integer
+ * @num: the integer
+ *
+ * Description: calculate the length of an integer
+ *
+ * Return: length of the integer
+*/
 
 int num_length(int num)
 {
