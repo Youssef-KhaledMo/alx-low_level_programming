@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * natural - prints the sum of all the multiples of 3 or 5
+ * main - Entery point
  *
  * Description: prints the sum of all the
  *		multiples of 3 or 5 below 1024 (excluded)
@@ -9,7 +9,7 @@
  * Return: void
 */
 
-void natural(void)
+int main(void)
 {
 	int count, sum = 0;
 
@@ -19,4 +19,6 @@ void natural(void)
 			sum += count;
 	}
 	printf("%d\n", sum);
+
+	return (0);
 }
