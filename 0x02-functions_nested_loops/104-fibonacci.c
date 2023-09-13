@@ -1,6 +1,17 @@
 #include "main.h"
 
 /**
+ * num_length - calculate the length of an integer
+ * @num: the integer
+ *
+ * Description: calculate the length of an integer
+ *
+ * Return: lenght of the integer
+*/
+
+int num_length(int num);
+
+/**
  * main - Entry point
  *
  * Description: using sizeof to print the size of various types.
@@ -8,11 +19,9 @@
  * Return: Always 0 (Success)
 */
 
-int num_length(int num);
-
 int main(void)
 {
-        int count, init;
+	int count, init;
 	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f10 = 0, f20 = 0, sum0 = 0;
 
 	for (count = 1; count <= 98; count++)
@@ -50,7 +59,7 @@ int num_length(int num)
 
 	if (!num)
 		return (1);
-	while(num)
+	while (num)
 	{
 		num /= 10;
 		length++;
